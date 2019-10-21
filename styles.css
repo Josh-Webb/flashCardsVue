@@ -91,10 +91,14 @@ body {
     display: none;
   }
   
-  .flip-enter, .flip-leave {
+  .flip-enter {
     transform: rotateY(180deg);
     opacity: 0;
   
+  }
+
+  .flip-leave {
+    display: none;
   }
   
   /* Form */
