@@ -14,7 +14,7 @@
   <div id="flashcard-app" class="container">
 
     <h1>Flashcard App!</h1>
-
+<!-- o comments count -->
     <div class="flashcard-form">
       <label for="front">Front
         <input v-model="newFront" type="text" id="front">
@@ -23,7 +23,7 @@
         <input v-on:keypress.enter="addNew" v-model="newBack" type="text" id="back">
       </label>
       <button v-on:click="addNew">Add a New Card</button>
-      <span v-show="error" class="error">Oops! Flashcards need a front and a back.</span>
+      <span v-show="error" class="error">Flashcards need a front and a back.</span>
     </div>
 
     <ul class="flashcard-list">
